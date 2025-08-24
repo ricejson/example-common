@@ -8,10 +8,10 @@ func NewUser() *User {
 	return &User{}
 }
 
-func (u *User) getName() string {
+func (u *User) GetName() string {
 	return u.name
 }
 
-func (u *User) setName(name string) {
+func (u *User) SetName(name string) {
 	u.name = name
 }

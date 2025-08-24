@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/ricejson/rice-rpc/example-common/model"
+	"github.com/ricejson/example-common/model"
 )
 
 type UserService interface {

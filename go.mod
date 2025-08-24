@@ -1,3 +1,3 @@
-module github.com/ricejson/rice-rpc/example-common
+module github.com/ricejson/example-common
 
 go 1.23.8

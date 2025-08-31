@@ -1,7 +1,7 @@
 package model
 
 type User struct {
-	name string
+	Name string
 }
 
 func NewUser() *User {
@@ -9,9 +9,9 @@ func NewUser() *User {
 }
 
 func (u *User) GetName() string {
-	return u.name
+	return u.Name
 }
 
 func (u *User) SetName(name string) {
-	u.name = name
+	u.Name = name
 }

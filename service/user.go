@@ -5,5 +5,5 @@ import (
 )
 
 type UserService interface {
-	GetUser(user model.User) (model.User, error)
+	GetUser() (model.User, error)
 }
